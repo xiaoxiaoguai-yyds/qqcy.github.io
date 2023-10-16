@@ -1,0 +1,25 @@
+@font-face {
+			  font-family: 'xxg';
+			  src:  url('xxg.woff2') format('woff2'),
+			        url('xxg.woff') format('woff');
+			}
+body{
+				font-family: 'myfont';
+			}
+body {
+			  font-family: 'xxg', Fallback, sans-serif;
+			}
+body{
+	 background: red;
+}
+h1{
+				text-align: center;
+				color: #ffffff;
+				text-shadow: 10px 10px 10px red;
+			}
+			
+p{
+				font-size: 20px;
+				text-align: center;
+				color: red;
+			}
